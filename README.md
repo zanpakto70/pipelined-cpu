@@ -3,6 +3,7 @@
 A 5-stage pipelined MIPS-style processor written in VHDL, with data forwarding,
 load-use hazard detection, and branch/jump handling. Simulated in ModelSim
 against a test program that exercises every implemented instruction.
+<img width="1806" height="730" alt="image" src="https://github.com/user-attachments/assets/a3fcfca1-c3d6-41ad-93ce-06d4fb1c12e7" />
 
 ## Features
 
@@ -12,7 +13,7 @@ against a test program that exercises every implemented instruction.
 - Control hazards: branches and jumps resolve in EX and flush the two younger instructions
 - 20 instructions across R-type, I-type, and J-type
 - ALU with add/sub, set-less-than, four logic operations, and signed overflow detection
-<img width="1806" height="730" alt="image" src="https://github.com/user-attachments/assets/a4f9a739-c910-4111-b882-d22003452f87" />
+
 
 ## Repository layout
 
